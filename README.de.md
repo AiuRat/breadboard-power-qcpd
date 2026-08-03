@@ -110,3 +110,16 @@ Das Repository hat eine klare modulare Struktur. Klicken Sie auf die unten stehe
 * 📁 **[`/mechanical`](/mechanical)** — Mechanischer Teil und Gehäuse. Enthält die parametrischen Originalmodelle der Gehäuseteile in KOMPAS-3D (`.m3d`, `.a3d`) und fertige FDM-3D-Druckdateien (`.stl`).
 * 📁 **[`/production`](/production)** — Dateien für die Fertigung und Bestellung. Enthält das Gerber-Dateien-Archiv für den Leiterplattenhersteller (`gerber.zip`), die Stückliste für den Bauteileeinkauf (`BOM.xlsx`) und PDF-Zeichnungen.
 * 📁 **[`/docs`](/docs)** — Technische Dokumentation. Enthält eine ausführliche Beschreibung der physikalischen Funktionsweise der Schaltung, Schalter-Wahrheitstabellen und den Unterordner **[`datasheets`](/docs/datasheets)** mit Original-Datenblättern der verwendeten ICs.
+
+
+## Lizenz
+
+Copyright (c) 2026 Airat Yalaletdinov
+
+Diese Quelle beschreibt Open Hardware (offene Hardware) und ist unter der CERN-OHL-P v2 lizenziert. 
+Sie dürfen diese Quelle unter den Bedingungen der CERN-OHL-P v2 (https://ohwr.org/cern_ohl_p_v2.txt) 
+weiterverbreiten, modifizieren und Produkte auf deren Grundlage herstellen.
+
+Diese Quelle wird OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG vertrieben, 
+EINSCHLIESSLICH DER GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT, ZUFRIEDENSTELLENDEN QUALITÄT ODER EIGNUNG 
+FÜR EINEN BESTIMMTEN ZWECK. Die geltenden Bedingungen entnehmen Sie bitte der CERN-OHL-P v2.
