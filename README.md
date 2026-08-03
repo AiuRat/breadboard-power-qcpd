@@ -1,3 +1,7 @@
+<p align="center">
+  <b>Русский</b> | <a href="README.en.md">English</a> | <a href="README.de.md">Deutsch</a>
+</p>
+
 # Breadboard Power QC/PD
 
 Модуль комбинированного питания для беспаечных макетных плат с поддержкой протоколов быстрой зарядки **USB Power Delivery (PD)** и **Quick Charge (QC)**.
