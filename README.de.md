@@ -117,7 +117,7 @@ Das Repository hat eine klare modulare Struktur. Klicken Sie auf die unten stehe
 Copyright (c) 2026 Airat Yalaletdinov
 
 Diese Quelle beschreibt Open Hardware (offene Hardware) und ist unter der CERN-OHL-P v2 lizenziert. 
-Sie dürfen diese Quelle unter den Bedingungen der CERN-OHL-P v2 (https://ohwr.org/cern_ohl_p_v2.txt) 
+Sie dürfen diese Quelle unter den Bedingungen der CERN-OHL-P v2 (https://cern.ch/cern-ohl) 
 weiterverbreiten, modifizieren und Produkte auf deren Grundlage herstellen.
 
 Diese Quelle wird OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG vertrieben, 
