@@ -110,3 +110,15 @@ The repository has a clear modular structure. Click on the links below to naviga
 * 📁 **[`/mechanical`](/mechanical)** — Mechanical design and enclosure. Contains native parametric models of the enclosure parts in KOMPAS-3D (`.m3d`, `.a3d`) and ready-to-print `.stl` files for FDM 3D printing.
 * 📁 **[`/production`](/production)** — Self-assembly and manufacturing files. Contains the Gerber files archive for PCB fabrication (`gerber.zip`), bill of materials (`BOM.xlsx`), and PDF drawings.
 * 📁 **[`/docs`](/docs)** — Technical documentation. Contains a detailed description of the circuit physics, switch truth tables, and the **[`datasheets`](/docs/datasheets)** subfolder with original datasheets for the ICs used.
+
+## License
+
+Copyright (c) 2026 Airat Yalaletdinov
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2. 
+You may redistribute and modify this source and make products using it under 
+the terms of the CERN-OHL-P v2 (https://ohwr.org/cern_ohl_p_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, 
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A 
+PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions.
