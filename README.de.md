@@ -36,7 +36,7 @@ Dieses Projekt kombiniert moderne Schnellladetechnologien über das **USB Type-C
 Vollständiger elektrischer Schaltplan des Moduls:
 
 <p align="center">
-  <img src="/docs/images/breadboard-power-qcpd-schematic.png" width="850" alt="Prinzipschaltbild des Breadboard Power QC/PD">
+  <img src="/docs/images/schematic.png" width="850" alt="Prinzipschaltbild des Breadboard Power QC/PD">
 </p>
 
 ### Die Architektur des Moduls besteht aus drei Schlüsselkomponenten:
@@ -51,7 +51,7 @@ Vollständiger elektrischer Schaltplan des Moduls:
 Zum Schutz der Elektronik und für eine komfortable Nutzung wurde ein zweiteiliges Kunststoff-Schutzgehäuse in **KOMPAS-3D** entworfen (Verbindung der Teile über ein Nut-Feder-System):
 
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(1).png" width="650" alt="3D-Modell des Gehäuses - Ansicht 1">
+  <img src="/mechanical/images/assembly(1).png" width="650" alt="3D-Modell des Gehäuses - Ansicht 1">
 </p>
 
 *Die Gehäuseteile (Abdeckung und Bodenplatte) sind für die additive Fertigung mittels FDM-3D-Druck optimiert (die druckfertigen `.stl`-Dateien befinden sich im Ordner [`mechanical/enclosure/`](/mechanical/enclosure)).*

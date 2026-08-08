@@ -36,7 +36,7 @@
 Полная принципиальная электрическая схема модуля:
 
 <p align="center">
-  <img src="/docs/images/breadboard-power-qcpd-schematic.png" width="850" alt="Принципиальная схема Breadboard Power QC/PD">
+  <img src="/docs/images/schematic.png" width="850" alt="Принципиальная схема Breadboard Power QC/PD">
 </p>
 
 ### Архитектура модуля состоит из трех ключевых узлов:
@@ -51,7 +51,7 @@
 Для защиты электроники и удобства использования был спроектирован двухсоставной защитный пластиковый корпус в среде **КОМПАС-3D** (соединение деталей по системе шип-паз):
 
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(1).png" width="650" alt="3D-модель корпуса - Вид 1">
+  <img src="/mechanical/images/assembly(1).png" width="650" alt="3D-модель корпуса - Вид 1">
 </p>
 
 *Детали корпуса (крышка и подложка) оптимизированы под аддитивное производство методом FDM-печати на 3D-принтере (файлы `.stl` для печати находятся в папке [`mechanical/enclosure/`](/mechanical/enclosure)).*

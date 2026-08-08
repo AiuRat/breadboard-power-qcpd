@@ -36,7 +36,7 @@ This project combines modern fast charging technologies via the **USB Type-C (QC
 Full electrical schematic diagram of the module:
 
 <p align="center">
-  <img src="/docs/images/breadboard-power-qcpd-schematic.png" width="850" alt="Schematic Diagram of Breadboard Power QC/PD">
+  <img src="/docs/images/schematic.png" width="850" alt="Schematic Diagram of Breadboard Power QC/PD">
 </p>
 
 ### The module's architecture consists of three key sections:
@@ -51,7 +51,7 @@ Full electrical schematic diagram of the module:
 To protect the electronics and ensure usability, a two-part protective plastic enclosure was designed in **KOMPAS-3D** (assembly of parts using a tongue-and-groove system):
 
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(1).png" width="650" alt="3D Model of the Enclosure - View 1">
+  <img src="/mechanical/images/assembly(1).png" width="650" alt="3D Model of the Enclosure - View 1">
 </p>
 
 *The enclosure parts (top cover and bottom plate) are optimized for additive manufacturing using FDM 3D printing (print-ready `.stl` files can be found in the [`mechanical/enclosure/`](/mechanical/enclosure) folder).*

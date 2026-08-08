@@ -19,7 +19,7 @@ This folder contains all materials related to the design, calculation, and routi
 Full electrical schematic diagram of the module, designed in EasyEDA:
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-schematic.png" width="1000" alt="Device schematic diagram">
+  <img src="/electronics/images/schematic.png" width="1000" alt="Device schematic diagram">
 </p>
 
 ---
@@ -29,9 +29,9 @@ Full electrical schematic diagram of the module, designed in EasyEDA:
 Two-layer printed circuit board with optimized routing of power traces and ground planes (components not shown):
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-pcb(1).png" width="380" alt="PCB topology - top view">
+  <img src="/electronics/images/pcb(1).png" width="380" alt="PCB topology - top view">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/electronics/images/hv-test-stand-pcb(2).png" width="380" alt="PCB topology - bottom view">
+  <img src="/electronics/images/pcb(2).png" width="380" alt="PCB topology - bottom view">
 </p>
 
 ---
@@ -41,7 +41,7 @@ Two-layer printed circuit board with optimized routing of power traces and groun
 Realistic 3D renders of the printed circuit board with installed components:
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-pcb(3).png" width="380" alt="3D PCB model - angle 1">
+  <img src="/electronics/images/pcb(3).png" width="380" alt="3D PCB model - angle 1">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/electronics/images/hv-test-stand-pcb(4).png" width="380" alt="3D PCB model - angle 2">
+  <img src="/electronics/images/pcb(4).png" width="380" alt="3D PCB model - angle 2">
 </p>

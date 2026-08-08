@@ -19,9 +19,9 @@ Hier befinden sich alle Materialien im Zusammenhang mit der Konstruktion, der 3D
 Renderings des in KOMPAS-3D entworfenen 3D-Gehäusemodells (Abdeckung und Bodenplatte) zusammen mit der Leiterplatte:
 
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(1).png" width="380" alt="Gehäusebaugruppe - Ansicht 1">
+  <img src="/mechanical/images/assembly(1).png" width="380" alt="Gehäusebaugruppe - Ansicht 1">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(2).png" width="380" alt="Gehäusebaugruppe - Ansicht 2">
+  <img src="/mechanical/images/assembly(2).png" width="380" alt="Gehäusebaugruppe - Ansicht 2">
 </p>
 
 ---
@@ -32,20 +32,20 @@ Nachfolgend sind die wichtigsten Blätter der grafischen Dokumentation des Proje
 
 ### 1. Elektrischer Schaltplan (Schematic)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-schematic.png" width="85%" alt="Elektrischer Schaltplan">
+  <img src="/mechanical/images/schematic.png" width="85%" alt="Elektrischer Schaltplan">
 </p>
 
 ### 2. Baugruppenzeichnung des Geräts (Assembly Drawing)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly-drawing.png" width="85%" alt="Baugruppenzeichnung des Geräts">
+  <img src="/mechanical/images/assembly-drawing.png" width="85%" alt="Baugruppenzeichnung des Geräts">
 </p>
 
 ### 3. Leiterplattenzeichnung (PCB Drawing)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-pcb-drawing.png" width="85%" alt="Leiterplattenzeichnung">
+  <img src="/mechanical/images/pcb-drawing.png" width="85%" alt="Leiterplattenzeichnung">
 </p>
 
 ### 4. Gesamtansichtszeichnung des Produkts (General View)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-general-view.png" width="85%" alt="Gesamtansichtszeichnung des Produkts">
+  <img src="/mechanical/images/general-view.png" width="85%" alt="Gesamtansichtszeichnung des Produkts">
 </p>

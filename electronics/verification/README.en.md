@@ -35,7 +35,7 @@ Based on the datasheet plot, for a capacitor value of $C_1 = 100\text{ pF}$, the
 * Output switch turn-off interval: $t_{\text{off}} = 1\ \mu\text{s}$
 
 <p align="center">
-  <img src="/electronics/verification/images/datasheet-mc34063-timing-vs-capacitor.png" width="380" alt="Frequency vs. Capacitance Plot">
+  <img src="/electronics/verification/images/mc34063-timing-vs-capacitor.png" width="380" alt="Frequency vs. Capacitance Plot">
 </p>
   
 ### 2.2. Inductor Saturation Current Calculation ($I_{\text{sat}}$)
@@ -55,7 +55,7 @@ $$L_{\text{min}} = \left( \frac{U_{\text{in(max)}} - U_{\text{out(sat)}}}{I_{\te
 Where $U_{\text{out(sat)}}$ is the saturation voltage of the internal output transistor of the IC at a current of $1\text{ A}$. According to the datasheet reference plot, this value is $1.65\text{ V}$:
 
 <p align="center">
-  <img src="/electronics/verification/images/datasheet-mc34063-saturation-vs-current.png" width="380" alt="Saturation Voltage Plot">
+  <img src="/electronics/verification/images/mc34063-saturation-vs-current.png" width="380" alt="Saturation Voltage Plot">
 </p>
   
 Calculating the inductance value:

@@ -19,9 +19,9 @@ This folder contains all materials related to structural development, 3D enclosu
 Renders of the 3D enclosure model (top cover and bottom plate) assembled with the printed circuit board, designed in KOMPAS-3D:
 
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(1).png" width="380" alt="Enclosure Assembly - Angle 1">
+  <img src="/mechanical/images/assembly(1).png" width="380" alt="Enclosure Assembly - Angle 1">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(2).png" width="380" alt="Enclosure Assembly - Angle 2">
+  <img src="/mechanical/images/assembly(2).png" width="380" alt="Enclosure Assembly - Angle 2">
 </p>
 
 ---
@@ -32,20 +32,20 @@ Below are the main sheets of the project's graphical documentation, prepared in 
 
 ### 1. Electrical Schematic Diagram (Schematic)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-schematic.png" width="85%" alt="Electrical Schematic Diagram">
+  <img src="/mechanical/images/schematic.png" width="85%" alt="Electrical Schematic Diagram">
 </p>
 
 ### 2. Device Assembly Drawing (Assembly Drawing)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly-drawing.png" width="85%" alt="Device Assembly Drawing">
+  <img src="/mechanical/images/assembly-drawing.png" width="85%" alt="Device Assembly Drawing">
 </p>
 
 ### 3. Printed Circuit Board Drawing (PCB Drawing)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-pcb-drawing.png" width="85%" alt="Printed Circuit Board Drawing">
+  <img src="/mechanical/images/pcb-drawing.png" width="85%" alt="Printed Circuit Board Drawing">
 </p>
 
 ### 4. General View Drawing (General View)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-general-view.png" width="85%" alt="General View Drawing">
+  <img src="/mechanical/images/general-view.png" width="85%" alt="General View Drawing">
 </p>

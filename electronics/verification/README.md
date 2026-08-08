@@ -35,7 +35,7 @@
 * Интервал запирания выходного ключа: $t_{\text{выкл}} = 1\ \mu\text{с}$
 
 <p align="center">
-  <img src="/electronics/verification/images/datasheet-mc34063-timing-vs-capacitor.png" width="380" alt="График зависимости частоты от емкости">
+  <img src="/electronics/verification/images/mc34063-timing-vs-capacitor.png" width="380" alt="График зависимости частоты от емкости">
 </p>
   
 ### 2.2. Расчет тока насыщения дросселя ($I_{\text{нас}}$)
@@ -55,7 +55,7 @@ $$L_{\text{мин}} = \left( \frac{U_{\text{вх(макс)}} - U_{\text{вых(�
 Где $U_{\text{вых(нас)}}$ — напряжение насыщения выходного транзистора внутри микросхемы при токе $1\text{ А}$. Согласно справочному графику из даташита, это значение составляет $1,65\text{ В}$:
 
 <p align="center">
-  <img src="/electronics/verification/images/datasheet-mc34063-saturation-vs-current.png" width="380" alt="График напряжения насыщения">
+  <img src="/electronics/verification/images/mc34063-saturation-vs-current.png" width="380" alt="График напряжения насыщения">
 </p>
   
 Вычисляем значение индуктивности:

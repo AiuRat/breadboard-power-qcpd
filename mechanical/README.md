@@ -19,9 +19,9 @@
 Рендеры 3D-модели корпуса (крышка и подложка) в сборе с печатной платой, спроектированные в среде КОМПАС-3D:
 
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(1).png" width="380" alt="Сборка корпуса - Ракурс 1">
+  <img src="/mechanical/images/assembly(1).png" width="380" alt="Сборка корпуса - Ракурс 1">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly(2).png" width="380" alt="Сборка корпуса - Ракурс 2">
+  <img src="/mechanical/images/assembly(2).png" width="380" alt="Сборка корпуса - Ракурс 2">
 </p>
 
 ---
@@ -32,20 +32,20 @@
 
 ### 1. Схема электрическая принципиальная (Schematic)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-schematic.png" width="85%" alt="Схема электрическая принципиальная">
+  <img src="/mechanical/images/schematic.png" width="85%" alt="Схема электрическая принципиальная">
 </p>
 
 ### 2. Сборочный чертеж устройства (Assembly Drawing)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-assembly-drawing.png" width="85%" alt="Сборочный чертеж устройства">
+  <img src="/mechanical/images/assembly-drawing.png" width="85%" alt="Сборочный чертеж устройства">
 </p>
 
 ### 3. Чертеж печатной платы (PCB Drawing)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-pcb-drawing.png" width="85%" alt="Чертеж печатной платы">
+  <img src="/mechanical/images/pcb-drawing.png" width="85%" alt="Чертеж печатной платы">
 </p>
 
 ### 4. Чертеж общего вида изделия (General View)
 <p align="center">
-  <img src="/mechanical/images/breadboard-power-qcpd-general-view.png" width="85%" alt="Чертеж общего вида изделия">
+  <img src="/mechanical/images/general-view.png" width="85%" alt="Чертеж общего вида изделия">
 </p>

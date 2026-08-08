@@ -7,7 +7,7 @@
 This document contains a detailed technical description of the operation of the electrical schematic for the "Combined power module for solderless breadboards supporting QC/PD".
 
 <p align="center">
-  <img src="/docs/images/breadboard-power-qcpd-schematic.png" width="850" alt="Device Schematic Diagram">
+  <img src="/docs/images/schematic.png" width="850" alt="Device Schematic Diagram">
 </p>
 
 ## 1. Purpose and General Architecture

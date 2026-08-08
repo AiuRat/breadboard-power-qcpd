@@ -7,7 +7,7 @@
 Dieses Dokument enthält eine detaillierte technische Beschreibung der Funktionsweise des elektrischen Schaltplans für das "Kombinierte Stromversorgungsmodul für lötfreie Steckplatinen (Breadboards) mit QC/PD-Unterstützung".
 
 <p align="center">
-  <img src="/docs/images/breadboard-power-qcpd-schematic.png" width="850" alt="Schaltplan des Geräts">
+  <img src="/docs/images/schematic.png" width="850" alt="Schaltplan des Geräts">
 </p>
 
 ## 1. Verwendungszweck und Gesamtarchitektur

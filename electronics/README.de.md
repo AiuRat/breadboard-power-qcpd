@@ -19,7 +19,7 @@ Hier befinden sich alle Materialien im Zusammenhang mit dem Entwurf, der Berechn
 Vollst채ndiger elektrischer Schaltplan des Moduls, erstellt in EasyEDA:
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-schematic.png" width="1000" alt="Schaltplan des Ger채ts">
+  <img src="/electronics/images/schematic.png" width="1000" alt="Schaltplan des Ger채ts">
 </p>
 
 ---
@@ -29,9 +29,9 @@ Vollst채ndiger elektrischer Schaltplan des Moduls, erstellt in EasyEDA:
 Zweilagige Leiterplatte mit optimiertem Routing der Leistungsbahnen und Massefl채chen (ohne Bauteildarstellung):
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-pcb(1).png" width="380" alt="Leiterplatten-Topologie - Draufsicht">
+  <img src="/electronics/images/pcb(1).png" width="380" alt="Leiterplatten-Topologie - Draufsicht">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/electronics/images/hv-test-stand-pcb(2).png" width="380" alt="Leiterplatten-Topologie - Unteransicht">
+  <img src="/electronics/images/pcb(2).png" width="380" alt="Leiterplatten-Topologie - Unteransicht">
 </p>
 
 ---
@@ -41,7 +41,7 @@ Zweilagige Leiterplatte mit optimiertem Routing der Leistungsbahnen und Massefl�
 Realistische 3D-Renderings der Leiterplatte mit best체ckten Bauteilen:
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-pcb(3).png" width="380" alt="3D-Modell der Leiterplatte - Ansicht 1">
+  <img src="/electronics/images/pcb(3).png" width="380" alt="3D-Modell der Leiterplatte - Ansicht 1">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/electronics/images/hv-test-stand-pcb(4).png" width="380" alt="3D-Modell der Leiterplatte - Ansicht 2">
+  <img src="/electronics/images/pcb(4).png" width="380" alt="3D-Modell der Leiterplatte - Ansicht 2">
 </p>

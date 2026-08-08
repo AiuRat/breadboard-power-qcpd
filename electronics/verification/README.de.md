@@ -35,7 +35,7 @@ Anhand des Diagramms aus dem Datenblatt werden bei einer Kondensatorkapazität v
 * Ausschaltzeit des Ausgangsschalters: $t_{\text{off}} = 1\ \mu\text{s}$
 
 <p align="center">
-  <img src="/electronics/verification/images/datasheet-mc34063-timing-vs-capacitor.png" width="380" alt="Frequenz-Kapazitäts-Diagramm">
+  <img src="/electronics/verification/images/mc34063-timing-vs-capacitor.png" width="380" alt="Frequenz-Kapazitäts-Diagramm">
 </p>
   
 ### 2.2. Berechnung des Sättigungsstroms der Drossel ($I_{\text{sat}}$)
@@ -55,7 +55,7 @@ $$L_{\text{min}} = \left( \frac{U_{\text{in(max)}} - U_{\text{out(sat)}}}{I_{\te
 Wobei $U_{\text{out(sat)}}$ die Sättigungsspannung des internen Ausgangstransistors des ICs bei einem Strom von $1\text{ A}$ ist. Laut Referenzdiagramm im Datenblatt beträgt dieser Wert $1{,}65\text{ V}$:
 
 <p align="center">
-  <img src="/electronics/verification/images/datasheet-mc34063-saturation-vs-current.png" width="380" alt="Sättigungsspannungs-Diagramm">
+  <img src="/electronics/verification/images/mc34063-saturation-vs-current.png" width="380" alt="Sättigungsspannungs-Diagramm">
 </p>
   
 Berechnung des Induktivitätswerts:

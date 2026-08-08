@@ -19,7 +19,7 @@
 Полная принципиальная электрическая схема модуля, выполненная в EasyEDA:
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-schematic.png" width="1000" alt="Принципиальная схема устройства">
+  <img src="/electronics/images/schematic.png" width="1000" alt="Принципиальная схема устройства">
 </p>
 
 ---
@@ -29,9 +29,9 @@
 Двухслойная печатная плата с оптимизированной разводкой силовых дорожек и полигонов заземления (без отображения компонентов):
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-pcb(1).png" width="380" alt="Топология платы - вид сверху">
+  <img src="/electronics/images/pcb(1).png" width="380" alt="Топология платы - вид сверху">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/electronics/images/hv-test-stand-pcb(2).png" width="380" alt="Топология платы - вид снизу">
+  <img src="/electronics/images/pcb(2).png" width="380" alt="Топология платы - вид снизу">
 </p>
 
 ---
@@ -41,7 +41,7 @@
 Реалистичные 3D-рендеры печатной платы с установленной элементной базой:
 
 <p align="center">
-  <img src="/electronics/images/hv-test-stand-pcb(3).png" width="380" alt="3D модель платы - ракурс 1">
+  <img src="/electronics/images/pcb(3).png" width="380" alt="3D модель платы - ракурс 1">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/electronics/images/hv-test-stand-pcb(4).png" width="380" alt="3D модель платы - ракурс 2">
+  <img src="/electronics/images/pcb(4).png" width="380" alt="3D модель платы - ракурс 2">
 </p>
