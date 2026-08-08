@@ -7,7 +7,7 @@
 This document contains a detailed technical description of the operation of the electrical schematic for the "Combined power module for solderless breadboards supporting QC/PD".
 
 <p align="center">
-  <img src="/docs/images/schematic.png" width="850" alt="Device Schematic Diagram">
+  <img src="images/schematic.png" width="850" alt="Device Schematic Diagram">
 </p>
 
 ## 1. Purpose and General Architecture
@@ -60,11 +60,11 @@ Distribution of voltages to the left and right rails of the breadboard is carrie
 
 | `CFG1` | `CFG2` | `CFG3` | Output Voltage `VBUS` |
 | :---: | :---: | :---: | :---: |
-| $1$ | $-$ | $-$ | **$5\text{ V}$** |
-| $0$ | $0$ | $0$ | **$9\text{ V}$** |
-| $0$ | $0$ | $1$ | **$12\text{ V}$** |
-| $0$ | $1$ | $1$ | **$15\text{ V}$** |
-| $0$ | $1$ | $0$ | **$20\text{ V}$** |
+| 1 | — | — | **5 V** |
+| 0 | 0 | 0 | **9 V** |
+| 0 | 0 | 1 | **12 V** |
+| 0 | 1 | 1 | **15 V** |
+| 0 | 1 | 0 | **20 V** |
 
 *Note: "1" indicates the open state of the switch (high level due to pull-up to VDD), "0" indicates closed to GND.*
 
@@ -72,10 +72,10 @@ Distribution of voltages to the left and right rails of the breadboard is carrie
 
 | `SA1` Position | `SA3` Position | Voltage on Left Rail `X2` | Voltage on Right Rail `X3` |
 | :---: | :---: | :---: | :---: |
-| 1 | 1 | $+3.3\text{ V}$ | $-15\text{ V}$ |
-| 0 | 1 | $+3.3\text{ V}$ | $+3.3\text{ V}$ |
+| 1 | 1 | +3.3 V | -15 V |
+| 0 | 1 | +3.3 V | +3.3 V |
 | 0 | 0 | `VBUS` (from trigger) | `VBUS` (from trigger) |
-| 1 | 0 | `VBUS` (from trigger) | $-15\text{ V}$ |
+| 1 | 0 | `VBUS` (from trigger) | -15 V |
 
 ---
 
@@ -83,6 +83,6 @@ Distribution of voltages to the left and right rails of the breadboard is carrie
 
 For a detailed study of the operation of the integrated circuits used in the circuit, you can review the original manufacturer technical documentation located in the repository:
 
-* 📄 **[`ch224k.pdf`](/docs/datasheets/ch224k.pdf)** — fast USB charging protocol trigger controller (WCH).
-* 📄 **[`ld1086.pdf`](/docs/datasheets/ld1086.pdf)** — high-power low-noise linear LDO voltage regulator (STMicroelectronics).
-* 📄 **[`mc34063a.pdf`](/docs/datasheets/mc34063a.pdf)** — universal switching PWM controller for DC-DC converters (STMicroelectronics).
+* 📄 **[`ch224k.pdf`](datasheets/ch224k.pdf)** — fast USB charging protocol trigger controller (WCH).
+* 📄 **[`ld1086.pdf`](datasheets/ld1086.pdf)** — high-power low-noise linear LDO voltage regulator (STMicroelectronics).
+* 📄 **[`mc34063a.pdf`](datasheets/mc34063a.pdf)** — universal switching PWM controller for DC-DC converters (STMicroelectronics).

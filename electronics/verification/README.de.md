@@ -14,7 +14,7 @@ Der invertierende Betrieb ist erforderlich, um eine stabile negative Spannung vo
 
 Der theoretische Schaltplan für den Anschluss des ICs im invertierenden Betrieb ist unten dargestellt:
 
-![Schaltplan der MC34063-Beschaltung](/electronics/verification/images/mc34063-inverting-schematic.png)
+![Schaltplan der MC34063-Beschaltung](images/mc34063-inverting-schematic.png)
 
 ### Ausgangsparameter für die Berechnung:
 * Maximale Eingangsspannung: $U_{\text{in(max)}} = 20\text{ V}$ (entspricht dem maximalen USB-Power-Delivery-Profil)
@@ -35,7 +35,7 @@ Anhand des Diagramms aus dem Datenblatt werden bei einer Kondensatorkapazität v
 * Ausschaltzeit des Ausgangsschalters: $t_{\text{off}} = 1\ \mu\text{s}$
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-timing-vs-capacitor.png" width="380" alt="Frequenz-Kapazitäts-Diagramm">
+  <img src="images/mc34063-timing-vs-capacitor.png" width="380" alt="Frequenz-Kapazitäts-Diagramm">
 </p>
   
 ### 2.2. Berechnung des Sättigungsstroms der Drossel ($I_{\text{sat}}$)
@@ -55,7 +55,7 @@ $$L_{\text{min}} = \left( \frac{U_{\text{in(max)}} - U_{\text{out(sat)}}}{I_{\te
 Wobei $U_{\text{out(sat)}}$ die Sättigungsspannung des internen Ausgangstransistors des ICs bei einem Strom von $1\text{ A}$ ist. Laut Referenzdiagramm im Datenblatt beträgt dieser Wert $1{,}65\text{ V}$:
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-saturation-vs-current.png" width="380" alt="Sättigungsspannungs-Diagramm">
+  <img src="images/mc34063-saturation-vs-current.png" width="380" alt="Sättigungsspannungs-Diagramm">
 </p>
   
 Berechnung des Induktivitätswerts:
@@ -107,14 +107,14 @@ Zur Bestätigung der Stabilität der Schaltung wurde eine oszilloskopische Aufze
 Die tatsächliche Betriebsfrequenz des internen Generators betrug **$97{,}5\text{ kHz}$** (bei einem berechneten Maximum von $100\text{ kHz}$ für dieses IC). Die Spannungsform ist klassisch sägezahnförmig ohne Verzerrungen, was die Stabilität des internen Oszillators bestätigt.
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-c1-waveform.png" width="600" alt="Oszillogramm C1">
+  <img src="images/mc34063-c1-waveform.png" width="600" alt="Oszillogramm C1">
 </p>
 
 ### 4.2. Signalform an der Drossel $L_1$
 Die Messung am Schaltknoten (Pin `SWE` / Anode der Diode `VD1`) bestätigt den Betrieb des Wandlers im berechneten Impulsmodus. Die Einschaltzeit beträgt $4\ \mu\text{s}$, die Ausschaltzeit $1\ \mu\text{s}$, was vollständig mit den berechneten Zeitparametern übereinstimmt. Die auftretenden hochfrequenten Schwingungen (Ringing) beim Schalten liegen innerhalb der zulässigen Grenzen für die ausgewählte Schottky-Diode $15MQ040N$.
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-l1-waveform.png" width="600" alt="Oszillogramm L1">
+  <img src="images/mc34063-l1-waveform.png" width="600" alt="Oszillogramm L1">
 </p>
 
 ---
@@ -123,8 +123,8 @@ Die Messung am Schaltknoten (Pin `SWE` / Anode der Diode `VD1`) bestätigt den B
 
 | Parameter | Berechneter Wert | Tatsächlich (Prototyp) | Verifizierungsstatus |
 | :--- | :---: | :---: | :--- |
-| **Ausgangsspannung ($U_{\text{out}}$)** | $-14{,}57\text{ V}$ | $-15{,}02\text{ V}$ | **Bestanden** (Genauigkeit $\approx 3\%$) |
-| **Betriebsfrequenz ($f$)** | $100\text{ kHz}$ (max) | $97{,}5\text{ kHz}$ | **Bestanden** (optimal für MC34063) |
-| **Einschaltzeit ($t_{\text{on}}$)** | $4{,}0\ \mu\text{s}$ | $4{,}0\ \mu\text{s}$ | **Bestanden** (exakte Übereinstimmung) |
-| **Ausschaltzeit ($t_{\text{off}}$)** | $1{,}0\ \mu\text{s}$ | $1{,}0\ \mu\text{s}$ | **Bestanden** (exakte Übereinstimmung) |
-| **Welligkeitsamplitude (peak-to-peak)** | $< 100\text{ mV}$ | $\approx 85\text{ mV}$ | **Bestanden** (mit Reserve für Steckplatinen) |
+| **Ausgangsspannung ($U_{\text{out}}$)** | -14,57 V | -15,02 V | **Bestanden** (Genauigkeit ≈ 3%) |
+| **Betriebsfrequenz ($f$)** | 100 kHz (max) | 97,5 kHz | **Bestanden** (optimal für MC34063) |
+| **Einschaltzeit ($t_{\text{on}}$)** | 4,0 µs | 4,0 µs | **Bestanden** (exakte Übereinstimmung) |
+| **Ausschaltzeit ($t_{\text{off}}$)** | 1,0 µs | 1,0 µs | **Bestanden** (exakte Übereinstimmung) |
+| **Welligkeitsamplitude (peak-to-peak)** | < 100 mV | ≈ 85 mV | **Bestanden** (mit Reserve für Steckplatinen) |

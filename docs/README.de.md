@@ -7,7 +7,7 @@
 Dieses Dokument enthält eine detaillierte technische Beschreibung der Funktionsweise des elektrischen Schaltplans für das "Kombinierte Stromversorgungsmodul für lötfreie Steckplatinen (Breadboards) mit QC/PD-Unterstützung".
 
 <p align="center">
-  <img src="/docs/images/schematic.png" width="850" alt="Schaltplan des Geräts">
+  <img src="images/schematic.png" width="850" alt="Schaltplan des Geräts">
 </p>
 
 ## 1. Verwendungszweck und Gesamtarchitektur
@@ -60,11 +60,11 @@ Die Verteilung der Spannungen auf die linke und rechte Schiene der Steckplatine 
 
 | `CFG1` | `CFG2` | `CFG3` | Ausgangsspannung `VBUS` |
 | :---: | :---: | :---: | :---: |
-| $1$ | $-$ | $-$ | **$5\text{ V}$** |
-| $0$ | $0$ | $0$ | **$9\text{ V}$** |
-| $0$ | $0$ | $1$ | **$12\text{ V}$** |
-| $0$ | $1$ | $1$ | **$15\text{ V}$** |
-| $0$ | $1$ | $0$ | **$20\text{ V}$** |
+| 1 | — | — | **5 V** |
+| 0 | 0 | 0 | **9 V** |
+| 0 | 0 | 1 | **12 V** |
+| 0 | 1 | 1 | **15 V** |
+| 0 | 1 | 0 | **20 V** |
 
 *Hinweis: „1“ bedeutet geöffneter Zustand des Schalters (High-Pegel durch Pull-up-Widerstand gegen VDD), „0“ bedeutet gegen GND geschlossen.*
 
@@ -72,10 +72,10 @@ Die Verteilung der Spannungen auf die linke und rechte Schiene der Steckplatine 
 
 | `SA1`-Stellung | `SA3`-Stellung | Spannung an der linken Schiene `X2` | Spannung an der rechten Schiene `X3` |
 | :---: | :---: | :---: | :---: |
-| 1 | 1 | $+3{,}3\text{ V}$ | $-15\text{ V}$ |
-| 0 | 1 | $+3{,}3\text{ V}$ | $+3{,}3\text{ В}$ |
+| 1 | 1 | +3,3 V | -15 V |
+| 0 | 1 | +3,3 V | +3,3 V |
 | 0 | 0 | `VBUS` (vom Trigger) | `VBUS` (vom Trigger) |
-| 1 | 0 | `VBUS` (vom Trigger) | $-15\text{ V}$ |
+| 1 | 0 | `VBUS` (vom Trigger) | -15 V |
 
 ---
 
@@ -83,6 +83,6 @@ Die Verteilung der Spannungen auf die linke und rechte Schiene der Steckplatine 
 
 Für eine detaillierte Untersuchung der Funktionsweise der verwendeten integrierten Schaltungen können Sie die Original-Datenblätter der Hersteller im Repository einsehen:
 
-* 📄 **[`ch224k.pdf`](/docs/datasheets/ch224k.pdf)** — USB-Schnelllade-Trigger-Controller (WCH).
-* 📄 **[`ld1086.pdf`](/docs/datasheets/ld1086.pdf)** — Leistungsstarker rauscharmer LDO-Linearregler (STMicroelectronics).
-* 📄 **[`mc34063a.pdf`](/docs/datasheets/mc34063a.pdf)** — Universeller PWM-Schaltregler-Controller für DC-DC-Wandler (STMicroelectronics).
+* 📄 **[`ch224k.pdf`](datasheets/ch224k.pdf)** — USB-Schnelllade-Trigger-Controller (WCH).
+* 📄 **[`ld1086.pdf`](datasheets/ld1086.pdf)** — Leistungsstarker rauscharmer LDO-Linearregler (STMicroelectronics).
+* 📄 **[`mc34063a.pdf`](datasheets/mc34063a.pdf)** — Universeller PWM-Schaltregler-Controller für DC-DC-Wandler (STMicroelectronics).

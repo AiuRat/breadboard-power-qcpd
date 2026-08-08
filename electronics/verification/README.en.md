@@ -14,7 +14,7 @@ The inverting mode of operation is required to generate a stable negative voltag
 
 The theoretical connection diagram of the IC in inverting mode is presented below:
 
-![MC34063 External Components Schematic](/electronics/verification/images/mc34063-inverting-schematic.png)
+![MC34063 External Components Schematic](images/mc34063-inverting-schematic.png)
 
 ### Initial Parameters for Calculation:
 * Maximum input voltage: $U_{\text{in(max)}} = 20\text{ V}$ (corresponds to the maximum USB Power Delivery profile)
@@ -35,7 +35,7 @@ Based on the datasheet plot, for a capacitor value of $C_1 = 100\text{ pF}$, the
 * Output switch turn-off interval: $t_{\text{off}} = 1\ \mu\text{s}$
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-timing-vs-capacitor.png" width="380" alt="Frequency vs. Capacitance Plot">
+  <img src="images/mc34063-timing-vs-capacitor.png" width="380" alt="Frequency vs. Capacitance Plot">
 </p>
   
 ### 2.2. Inductor Saturation Current Calculation ($I_{\text{sat}}$)
@@ -55,7 +55,7 @@ $$L_{\text{min}} = \left( \frac{U_{\text{in(max)}} - U_{\text{out(sat)}}}{I_{\te
 Where $U_{\text{out(sat)}}$ is the saturation voltage of the internal output transistor of the IC at a current of $1\text{ A}$. According to the datasheet reference plot, this value is $1.65\text{ V}$:
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-saturation-vs-current.png" width="380" alt="Saturation Voltage Plot">
+  <img src="images/mc34063-saturation-vs-current.png" width="380" alt="Saturation Voltage Plot">
 </p>
   
 Calculating the inductance value:
@@ -107,14 +107,14 @@ To confirm the stability of the circuit, oscilloscope signal registration was pe
 The actual operating frequency of the internal generator was **$97.5\text{ kHz}$** (with a calculated maximum of $100\text{ kHz}$ for this IC). The voltage waveform is a classic sawtooth without distortion, confirming the stability of the internal oscillator.
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-c1-waveform.png" width="600" alt="C1 Waveform">
+  <img src="images/mc34063-c1-waveform.png" width="600" alt="C1 Waveform">
 </p>
 
 ### 4.2. Waveform across Inductor $L_1$
 Measurement at the switch node (pin `SWE` / anode of diode `VD1`) confirms the converter is operating in the calculated switching mode. The conduction interval is $4\ \mu\text{s}$, and the turn-off interval is $1\ \mu\text{s}$, which is fully consistent with the calculated timing. High-frequency oscillations (ringing) present during switching are within acceptable limits for the selected Schottky diode $15MQ040N$.
 
 <p align="center">
-  <img src="/electronics/verification/images/mc34063-l1-waveform.png" width="600" alt="L1 Waveform">
+  <img src="images/mc34063-l1-waveform.png" width="600" alt="L1 Waveform">
 </p>
 
 ---
@@ -123,8 +123,8 @@ Measurement at the switch node (pin `SWE` / anode of diode `VD1`) confirms the c
 
 | Parameter | Calculated Value | Actual (Prototype) | Verification Status |
 | :--- | :---: | :---: | :--- |
-| **Output Voltage ($U_{\text{out}}$)** | $-14.57\text{ V}$ | $-15.02\text{ V}$ | **Passed** (accuracy $\approx 3\%$) |
-| **Operating Frequency ($f$)** | $100\text{ kHz}$ (max) | $97.5\text{ kHz}$ | **Passed** (optimal for MC34063) |
-| **Conduction Time ($t_{\text{on}}$)** | $4.0\ \mu\text{s}$ | $4.0\ \mu\text{s}$ | **Passed** (exact match) |
-| **Turn-off Time ($t_{\text{off}}$)** | $1.0\ \mu\text{s}$ | $1.0\ \mu\text{s}$ | **Passed** (exact match) |
-| **Ripple Amplitude (peak-to-peak)** | $< 100\text{ mV}$ | $\approx 85\text{ mV}$ | **Passed** (within margins for breadboards) |
+| **Output Voltage ($U_{\text{out}}$)** | -14.57 V | -15.02 V | **Passed** (accuracy ≈ 3%) |
+| **Operating Frequency ($f$)** | 100 kHz (max) | 97.5 kHz | **Passed** (optimal for MC34063) |
+| **Conduction Time ($t_{\text{on}}$)** | 4.0 µs | 4.0 µs | **Passed** (exact match) |
+| **Turn-off Time ($t_{\text{off}}$)** | 1.0 µs | 1.0 µs | **Passed** (exact match) |
+| **Ripple Amplitude (peak-to-peak)** | < 100 mV | ≈ 85 mV | **Passed** (within margins for breadboards) |

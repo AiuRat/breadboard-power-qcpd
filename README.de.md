@@ -85,20 +85,20 @@ Während der Verifizierung mit einem digitalen Oszilloskop wurden die Betriebsst
 
 | `CFG1` | `CFG2` | `CFG3` | Ausgangsspannung `VBUS` |
 | :---: | :---: | :---: | :---: |
-| $1$ | $-$ | $-$ | **$5\text{ V}$** |
-| $0$ | $0$ | $0$ | **$9\text{ V}$** |
-| $0$ | $0$ | $1$ | **$12\text{ V}$** |
-| $0$ | $1$ | $1$ | **$15\text{ V}$** |
-| $0$ | $1$ | $0$ | **$20\text{ V}$** |
+| 1 | — | — | **5 V** |
+| 0 | 0 | 0 | **9 V** |
+| 0 | 0 | 1 | **12 V** |
+| 0 | 1 | 1 | **15 V** |
+| 0 | 1 | 0 | **20 V** |
 
 ### 6.2. Umschalten der Steckplatinen-Stromschienen (Schalter `SA1`, `SA3`)
 
 | `SA1`-Stellung | `SA3`-Stellung | Spannung an der linken Schiene `X2` | Spannung an der rechten Schiene `X3` |
 | :---: | :---: | :---: | :---: |
-| 1 | 1 | $+3{,}3\text{ В}$ | $-15\text{ В}$ |
-| 0 | 1 | $+3{,}3\text{ В}$ | $+3{,}3\text{ В}$ |
+| 1 | 1 | +3,3 V | -15 V |
+| 0 | 1 | +3,3 V | +3,3 V |
 | 0 | 0 | `VBUS` (vom Trigger) | `VBUS` (vom Trigger) |
-| 1 | 0 | `VBUS` (vom Trigger) | $-15\text{ В}$ |
+| 1 | 0 | `VBUS` (vom Trigger) | -15 V |
 
 ---
 

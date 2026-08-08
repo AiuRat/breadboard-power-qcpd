@@ -85,20 +85,20 @@ During verification using a digital oscilloscope, the operating stability of the
 
 | `CFG1` | `CFG2` | `CFG3` | Output Voltage `VBUS` |
 | :---: | :---: | :---: | :---: |
-| $1$ | $-$ | $-$ | **$5\text{ V}$** |
-| $0$ | $0$ | $0$ | **$9\text{ V}$** |
-| $0$ | $0$ | $1$ | **$12\text{ V}$** |
-| $0$ | $1$ | $1$ | **$15\text{ V}$** |
-| $0$ | $1$ | $0$ | **$20\text{ V}$** |
+| 1 | — | — | **5 V** |
+| 0 | 0 | 0 | **9 V** |
+| 0 | 0 | 1 | **12 V** |
+| 0 | 1 | 1 | **15 V** |
+| 0 | 1 | 0 | **20 V** |
 
 ### 6.2. Breadboard Power Rail Commutation (Switches `SA1`, `SA3`)
 
 | `SA1` Position | `SA3` Position | Voltage on Left Rail `X2` | Voltage on Right Rail `X3` |
 | :---: | :---: | :---: | :---: |
-| 1 | 1 | $+3.3\text{ V}$ | $-15\text{ V}$ |
-| 0 | 1 | $+3.3\text{ V}$ | $+3.3\text{ V}$ |
+| 1 | 1 | +3,3 V | -15 V |
+| 0 | 1 | +3,3 V | +3,3 V |
 | 0 | 0 | `VBUS` (from trigger) | `VBUS` (from trigger) |
-| 1 | 0 | `VBUS` (from trigger) | $-15\text{ V}$ |
+| 1 | 0 | `VBUS` (from trigger) | -15 V |
 
 ---
 
